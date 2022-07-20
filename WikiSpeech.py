@@ -23,6 +23,8 @@ label.pack(pady=14)
 entry = tk.Entry(canvas, width=40)
 entry.pack(pady=14)
 
+inputButton = tk.Button(canvas, text="Search")#, padx=10, pady=5, fg='black', bd='#263D42')
+inputButton.pack(pady=14)
 
 win.mainloop()
 #root.mainloop()
