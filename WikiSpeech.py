@@ -5,8 +5,6 @@ import tkinter as tk
 
 from tkinter import BOTH
 
-search = ""
-
 #Create an instance of Tkinter frame
 win = tk.Tk()
 #Set the geometry of Tkinter frame
@@ -36,6 +34,5 @@ entry.pack(pady=14)
 inputButton = tk.Button(canvas, text="Search", command=getSearch)#, padx=10, pady=5, fg='black', bd='#263D42')
 inputButton.pack(pady=14)
 
-print(search)
 
 win.mainloop()
