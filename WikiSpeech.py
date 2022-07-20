@@ -25,7 +25,7 @@ def getSearch():
 canvas = tk.Canvas(height=650, width=700, bg="bisque")
 canvas.pack(fill= BOTH, expand= True)
 
-label = tk.Label(canvas , text="Input phrase for to listen to Wiki entry", font=(None, 23))
+label = tk.Label(canvas , text="Input phrase for to listen to Wiki entry", font=(None, 22))
 label.pack(pady=14)
 
 entry = tk.Entry(canvas ,width=40)
