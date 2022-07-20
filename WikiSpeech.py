@@ -17,10 +17,10 @@ win.geometry("750x250")
 canvas = tk.Canvas(height=650, width=700, bg="bisque")
 canvas.pack(fill= BOTH, expand= True)
 
-label = tk.Label(canvas , text="Search Wikipedia")
+label = tk.Label(canvas , text="Search Wikipedia", font=(None, 23))
 label.pack(pady=14)
 
-entry = tk.Entry()
+entry = tk.Entry(canvas, width=40)
 entry.pack(pady=14)
 
 
