@@ -12,6 +12,12 @@ win = tk.Tk()
 #Set the geometry of Tkinter frame
 win.geometry("750x250")
 
+
+def getSearch():
+    global entry
+    string = entry.get()
+
+
 #root = tk.Tk()
 
 canvas = tk.Canvas(height=650, width=700, bg="bisque")
@@ -23,7 +29,7 @@ label.pack(pady=14)
 entry = tk.Entry(canvas, width=40)
 entry.pack(pady=14)
 
-inputButton = tk.Button(canvas, text="Search")#, padx=10, pady=5, fg='black', bd='#263D42')
+inputButton = tk.Button(canvas, text="Search", command=getSearch())#, padx=10, pady=5, fg='black', bd='#263D42')
 inputButton.pack(pady=14)
 
 win.mainloop()
